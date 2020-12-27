@@ -1,0 +1,22 @@
+# jakartaee9-war-archetype
+Archetype to create a Jakarta EE 9 project.
+
+## Install on your local repository
+
+To install the archetype on your local repository, run the following command:
+
+    mvn install
+  
+## Creating a Project with your local archetype
+
+To create a project, go to a folder where you will have the project and run the following command:
+
+    mvn archetype:generate -DarchetypeGroupId=net.rhuanrocha -DarchetypeArtifactId=jakartaee9-war-archetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=<new project Group Id> -DartifactId=<new project artifact Id>
+    
+
+## Creating a Project with archetype of Maven Central
+
+To create a project, go to a folder where you will have the project and run the following command:
+
+    mvn archetype:generate -DarchetypeGroupId=net.rhuanrocha -DarchetypeArtifactId=jakartaee9-war-archetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=<new project Group Id> -DartifactId=<new project artifact Id>
+
